@@ -39,3 +39,10 @@ Contact
 Created by Twinkle Jha - feel free to reach out!
 
 GitHub: https://github.com/twinkle-jha
+
+## Deploying to GitHub Pages
+
+The GitHub Actions workflow builds the React app and deploys the `build` output
+whenever a commit is pushed to `main`. In the repository settings, open
+**Pages** and set the build and deployment source to **GitHub Actions**. The
+workflow can also be started manually from the **Actions** tab.
