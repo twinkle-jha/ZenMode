@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Card, CardContent } from "../ui/card";
 import { Button } from "../ui/button";
-import { Trash2, CheckCircle } from "lucide-react";
+import { Trash2 } from "lucide-react";
 
 export default function Tasks({ className }) {
   const [tasks, setTasks] = useState([]);

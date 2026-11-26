@@ -23,7 +23,7 @@ export default function MusicPlayer({ className }) {
     audio.src = focusTracks[trackIndex].url;
     if (isPlaying) audio.play();
     return () => audio.pause();
-  }, [trackIndex]);
+  }, [audio, isPlaying, trackIndex]);
 
   const togglePlay = () => {
     isPlaying ? audio.pause() : audio.play();
